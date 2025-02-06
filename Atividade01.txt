@@ -1,0 +1,18 @@
+import java.util.Scanner;
+
+public class PrimeiroCod {
+    public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
+        String nome;
+        int idade;
+
+        System.out.println("Qual é sua nome?");
+        nome = sc.next();
+
+        System.out.println("Qual é seu idade?");
+        idade = sc.nextInt();
+
+
+        System.out.println("Bom dia "+nome+" Parabens pelos seus "+idade+" anos");
+    }
+}
