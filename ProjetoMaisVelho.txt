@@ -1,0 +1,63 @@
+import java.util.Scanner;
+public class NomeDaClasse {
+    public static void main (String[] args) {
+        Scanner sc = new Scanner(System.in);
+        String a, b, c;
+        int ano1, ano2, ano3;
+        int mes1, mes2, mes3;
+        int dia1, dia2, dia3;
+
+
+        System.out.println("Informe seu nome: ");
+        a = sc.nextLine();
+
+        System.out.println("Informe o dia de seu nascimento: ");
+        dia1 = sc.nextInt();
+        System.out.println("Informe o mes de seu nascimento: ");
+        mes1 = sc.nextInt();
+        System.out.println("Informe o ano de seu nascimento: ");
+        ano1 = sc.nextInt();
+
+        sc.nextLine();
+
+        System.out.println("Informe seu nome: ");
+        b = sc.nextLine();
+
+        System.out.println("Informe o dia de seu nascimento: ");
+        dia2 = sc.nextInt();
+        System.out.println("Informe o mes de seu nascimento: ");
+        mes2 = sc.nextInt();
+        System.out.println("Informe o ano de seu nascimento: ");
+        ano2 = sc.nextInt();
+
+
+        sc.nextLine();
+
+        System.out.println("Informe seu nome: ");
+        c = sc.nextLine();
+
+        System.out.println("Informe o dia de seu nascimento: ");
+        dia3 = sc.nextInt();
+        System.out.println("Informe o mes de seu nascimento: ");
+        mes3 = sc.nextInt();
+        System.out.println("Informe o ano de seu nascimento: ");
+        ano3 = sc.nextInt();
+
+        if (ano1 < ano2) {
+            if (ano1 < ano3) {
+                System.out.println("O funcionario " + a + " e o mais velho");
+            }
+        }
+        if (ano2 < ano1) {
+            if (ano2 < ano3) {
+                System.out.println("O funcionario " + b + " e o mais velho");
+            }
+        }
+
+        if (ano3 < ano2) {
+            if (ano3 < ano1) {
+                System.out.println("O funcionario " + c + " e o mais velho");
+            }
+        }
+    }
+}
