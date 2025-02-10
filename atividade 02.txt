@@ -1,0 +1,29 @@
+import java.util.Scanner;
+public class NomeDaClasse {
+    public static void main (String[] args) {
+        Scanner sc = new Scanner(System.in);
+         String a,b,c;
+         int d,e,f;
+
+         System.out.println("Informe seu nome: ");
+          a = sc.next();
+
+        System.out.println("Informe sua idade: ");
+          d = sc.nextInt();
+
+        System.out.println("Informe seu nome: ");
+          b = sc.next();
+
+        System.out.println("Informe sua idade: ");
+          e = sc.nextInt();
+
+
+        System.out.println("Informe seu nome: ");
+          c = sc.next();
+
+        System.out.println("Informe sua idade: ");
+          f = sc.nextInt();
+
+        System.out.println("O funcionario " +a+ " tem " +d+ " anos ");
+        System.out.println("O funcionario " +b+ " tem " +e+ " anos ");
+        System.out.println("O funcionario " +c+ " tem " +f+ " anos ");
