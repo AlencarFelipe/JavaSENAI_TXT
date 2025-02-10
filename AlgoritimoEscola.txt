@@ -1,0 +1,26 @@
+import java.util.Scanner;
+public class NomeDaClasse {
+    public static void main (String[] args) {
+        Scanner sc = new Scanner(System.in);
+        String nome;
+        int  nota;
+
+        System.out.println("Informe seu nome: ");
+             nome = sc.nextLine();
+        System.out.println("Informe sua nota: ");
+             nota = sc.nextInt();
+
+         if ( nota > 50) {
+             System.out.println(nome + " Aluno " +nome+" Aprovado");
+         }else {
+
+             if (nota < 30) {
+                 System.out.println( "Aluno " +nome+ " Reprovado");
+             } else {
+
+             System.out.println(nome + " Aluno " +nome+" Em Recuperação");
+         }
+
+       }
+    }
+}
