@@ -1,0 +1,23 @@
+import java.util.Scanner;
+public class Main {
+    public static void main(String[] args) {
+
+        Scanner sc = new Scanner(System.in);
+        int salario;
+        String funcionario;
+
+        System.out.println("Informe o nome do funcionario:");
+        funcionario = sc.next();
+
+        System.out.println("Informe seu salario:");
+        salario = sc.nextInt();
+
+        if (salario <= 2259) System.out.println("O funcioario " +funcionario+ " esta insento do imposto de renda");
+
+          else {
+
+                System.out.println("O funcionario " +funcionario+ " deve pagar o imposto de renda");
+            }
+
+
+        }
