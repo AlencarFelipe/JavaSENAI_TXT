@@ -1,0 +1,34 @@
+import java.util.Scanner;
+public class Main {
+    public static void main(String[] args) {
+
+        Scanner sc = new Scanner(System.in);
+        double vendaF;
+        double vendaE;
+
+
+        System.out.println("Informe seu numero de vendas ");
+        vendaF = sc.nextDouble();
+
+
+        System.out.println("Informe o numero de vendas da empresa");
+        vendaE = sc.nextDouble();
+
+
+        if (vendaE < 200_000)
+            System.out.println("Sem Bonus");
+
+            else if (vendaF <  15_000) 
+                System.out.println("Sem Bonus");
+
+            else if (vendaF < 30_000)
+                System.out.println("Bonus 10%");
+
+            else {
+                System.out.println("Bonus de 20%!!!");
+                System.out.printf("O vendedor recebe R$%.2f",vendaF*20/100);
+            }
+
+
+        }
+    }
