@@ -1,0 +1,28 @@
+//Vetores
+import java.util.Scanner;
+public class Main {
+    public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
+
+
+//Exercicio 1 Crie um vetor manualmente com os doze meses do ano
+        String[] meses ={"janeiro","fevereiro","março","abril","maio","junho","julho","agosto","setembro","outubro","novembro","dezembro"};
+
+//Exercicio 2 Crie manualmente um vetor com tamanho 3 e com um número double em cada uma das posições. Tire a média destes números e printe
+        double[] numeros ={5.5,10.5,2.5};
+        double media  = (numeros[0]+numeros[1]+numeros[2]);
+        double mediaf = (media/3);
+        System.out.println(mediaf);
+
+//Exercicio 3 Crie um vetor de Strings com 4 nomes informados pelo usuário
+
+        System.out.println("Informe quatro nome: ");
+
+            String[] nomes = new String[4];
+            nomes[0] =sc.next();
+            nomes[1] = sc.next();
+            nomes[2] = sc.next();
+            nomes[3] =sc.next();
+            
+    }
+}
