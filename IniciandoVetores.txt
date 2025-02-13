@@ -1,0 +1,12 @@
+//Vetores
+
+public class Main {
+    public static void main(String[] args) {
+        int[] numeros = {18,51,49};
+        System.out.println(numeros[0]);
+
+
+        String[] nomes ={"Victor","Jose","Maria"};
+        System.out.println("Meu nome é "+nomes[0]);
+        System.out.println("O nome do meu pai é "+nomes[1]);
+        System.out.println("O nome da minha mãe é "+nomes[2]);
