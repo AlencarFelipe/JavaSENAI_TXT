@@ -1,0 +1,64 @@
+//Estrutura de repetição Signos
+import java.util.Scanner;
+public class Main {
+    public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
+
+
+
+
+        for (int i = 0; i < 3; i++) {
+
+
+            System.out.println("Informe seu mes de nascimento: ");
+            int mes = sc.nextInt();
+            switch (mes) {
+
+                case 1:
+                    System.out.println("Seu signo é Capricórnio.");
+                    break;
+                case 2:
+                    System.out.println("Seu signo é Aquário.");
+                    break;
+                case 3:
+                    System.out.println("Seu signo é Peixes.");
+                    break;
+                case 4:
+                    System.out.println("Seu signo é Áries.");
+                    break;
+                case 5:
+                    System.out.println("Seu signo é Touro.");
+                    break;
+                case 6:
+                    System.out.println("Seu signo é Gêmeos.");
+                    break;
+                case 7:
+                    System.out.println("Seu signo é Câncer.");
+                    break;
+                case 8:
+                    System.out.println("Seu signo é Leão.");
+                    break;
+                case 9:
+                    System.out.println("Seu signo é Virgem.");
+                    break;
+                case 10:
+                    System.out.println("Seu signo é Libra.");
+                    break;
+                case 11:
+                    System.out.println("Seu signo é Escorpião.");
+                    break;
+                case 12:
+                    System.out.println("Seu signo é Sagitário.");
+                    break;
+                default:
+                    System.out.println("Mês inválido. Por favor, digite um número entre 1 e 12.");
+
+                    
+
+
+            }
+        }
+
+
+    }
+}
