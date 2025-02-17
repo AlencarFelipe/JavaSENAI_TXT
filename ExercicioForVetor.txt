@@ -1,0 +1,38 @@
+public class Main {
+    public static void main(String[] args) {
+
+//sem o uso do for , crie um vetor com 5 nomes , crie tbm um vetor com 5 idades,
+// imprima mensagem "A <pessoa> possui <idade> anos". Aós terminar refaça a impressao
+// utilizando o for para iterar entre os vetores
+
+
+
+
+        String[]nomes= new String[5];
+        nomes[0]= "Carlos";
+        nomes[1]= "Felipe";
+        nomes[2]= "Gabriel";
+        nomes[3]= "Marco";
+        nomes[4]= "Robert";
+
+        int[]idades= new int[5];
+        idades[0]= 20;
+        idades[1]= 25;
+        idades[2]= 78;
+        idades[3]= 10;
+        idades[4]= 18;
+
+       // System.out.println("A pessoa " +nomes[0]+" possui "+idades[0]+" anos");
+       // System.out.println("A pessoa " +nomes[1]+" possui "+idades[1]+" anos");
+      //System.out.println("A pessoa " +nomes[2]+" possui "+idades[2]+" anos");
+       // System.out.println("A pessoa " +nomes[3]+" possui "+idades[3]+" anos");
+       // System.out.println("A pessoa " +nomes[4]+" possui "+idades[4]+" anos");
+
+
+        for( int i =0; i<5;i++){
+
+            System.out.println("A pessoa " +nomes[i]+" possui "+idades[i]+" anos");
+
+        }
+       }
+    }
