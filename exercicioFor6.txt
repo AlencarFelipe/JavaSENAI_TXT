@@ -1,0 +1,32 @@
+//Crie um sistema de login aonde você terá 5 códigos de usuários pré cadastrados.
+// O usuário terá que digitar um (de números inteiros) e, se ele existir, digitar a senha correspondente (também de números inteiros).
+// Caso ele consiga acertar, informe login efetuado com sucesso.
+// Ele deve ter 3 tentativas e depois exibir uma mensagem de “acesso negado”, terminando o programa, caso ele erre.
+
+import java.util.Scanner;
+public class Main {
+    public static void main(String[] args) {
+     Scanner sc = new Scanner(System.in);
+
+        int codigos[]={ 456,123,678,789,190,};
+        int senhas []= {555,222,777,888,999};
+
+
+        System.out.println("Informe o User: ");
+        for (int i = 0;i<3;i++) {
+            if (sc.nextInt() != codigos[i]);
+            {
+                System.out.println("tente novamente");
+                
+            } else 
+                
+                
+                
+
+
+
+        }
+
+
+    }
+}
