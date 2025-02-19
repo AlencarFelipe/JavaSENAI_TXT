@@ -1,0 +1,25 @@
+Crie um programa que informe se uma pessoa pode votar a partir do nome e idade dela
+A pessoa nome pode votar pois tem idade anos”
+“A pessoa nome não pode votar pois tem idade anos”
+import java.util.Scanner;
+public class Main {
+    public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
+
+
+        while (true) {
+            System.out.println(Informe seu nome  );
+            String n1 = sc.next();
+
+            System.out.println(Informe sua idade );
+            int n2 = sc.nextInt();
+
+            if (n2  16) {
+                System.out.println(a pessoa  + n1 +  pode votar pois tem  + n2 +  anos);
+            } else {
+
+                System.out.println(a pessoa  +n1+ não pode votar pois tem +n2+  anos);
+            }
+        }
+    }
+}

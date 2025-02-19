@@ -1,0 +1,14 @@
+//Utilizando o while, escreva 'Bom dia' 15 vezes
+import java.util.Scanner;
+public class Main {
+    public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
+        int a = 1;
+        while (a<=15){
+            System.out.println("Bom dia numero:" +a );a+=1;
+        }
+
+
+    }
+}
+

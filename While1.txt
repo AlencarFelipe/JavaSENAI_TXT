@@ -1,0 +1,15 @@
+//Crie uma variável chamada a.<a> começa com um valor de 0.
+//Faça com que a chegue até o valor 100, com incrementos de
+//1, e depois faça com que o programa se encerre sozinho. Utilize while.
+import java.util.Scanner;
+public class Main {
+    public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
+        int a = 0;
+        while (a<101){
+            System.out.println(a+"");a+=1;
+        }
+
+
+    }
+}

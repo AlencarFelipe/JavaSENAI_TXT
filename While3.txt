@@ -1,0 +1,23 @@
+//Faça um programa utilizando while que some dois números
+// para o usuário e entregue o resultado da soma logo em
+// seguida, repetindo infinitamente.
+import java.util.Scanner;
+public class Main {
+    public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
+
+
+        while(true){
+        System.out.println("Informe um numero: ");
+        int n1 = sc.nextInt();
+
+        System.out.println("Informe outro numero: ");
+        int n2= sc.nextInt();
+
+        int soma = n1+n2;
+
+            System.out.println("O resultado  da soma é: " +soma);
+        }
+    }
+}
+
