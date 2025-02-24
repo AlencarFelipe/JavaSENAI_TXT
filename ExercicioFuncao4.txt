@@ -1,0 +1,28 @@
+//4- Refaça os exercícios dois e três porém agora fornecendo os dados como argumentos ao invés de fazer os scan na função.
+//2- Crie uma função aniversario que, quando chamada, pergunte o nome do aniversariante e imprima “Feliz aniversário <nome>”
+//3- Crie uma função soma que pergunte dois valores e printe o resultado da soma destes valores em uma mensagem “O resultado da soma é: <resultado>”
+import java.sql.SQLOutput;
+import java.util.Scanner;
+public class main {
+
+
+    public static void main(String[] args) {
+       aniversario("Alencar");
+       soma(40,50);
+    }
+
+    public static void aniversario (String a){
+
+        System.out.println("Feliz aniversario " +a);
+
+
+    }
+
+    public static void soma(int n1,int n2) {
+
+        int resultado = n1 + n2;
+        System.out.println("O resultado da soma é: " +resultado);
+
+    }
+
+}

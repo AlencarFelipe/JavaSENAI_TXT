@@ -1,0 +1,18 @@
+//2- Crie uma função aniversario que, quando chamada, pergunte o nome do aniversariante e imprima “Feliz aniversário <nome>”
+import java.util.Scanner;
+public class main {
+
+
+    public static void main(String[] args) {
+
+        aniversario();
+    }
+
+       public static void aniversario() {
+           Scanner sc = new Scanner(System.in);
+           System.out.println("Qual é seu nome?");
+           String nome = sc.next();
+            System.out.println("feliz aniversario "+nome);
+        }
+
+}

@@ -1,0 +1,15 @@
+//1- Crie uma função chamada olá mundo que, quando executada, imprima a mensagem na tela “Olá Mundo”
+import java.util.Scanner;
+public class main {
+
+
+    public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
+        helloWorld();
+    }
+       public static void helloWorld() {
+
+            System.out.println("Hello World");
+        }
+
+}

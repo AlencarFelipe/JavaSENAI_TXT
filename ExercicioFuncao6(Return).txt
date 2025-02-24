@@ -1,0 +1,17 @@
+//6- Crie uma função multiplicação que retorne o resultado da multiplicação de dois números double.
+
+public class main {
+
+
+    public static void main(String[] args) {
+
+        double resultado;
+         resultado = multiplicacao(10.5,5.10);
+         System.out.println(resultado);
+    }
+
+    public static double multiplicacao(double n1,double n2) {
+        return n1*n2 ;
+    }
+ }
+
