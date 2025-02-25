@@ -1,0 +1,30 @@
+//Crie um array de Strings com 10 nomes.
+// Percorra estes 10 nomes informando uma mensagem de o <numero do nome> nome é <nome>
+
+import java.util.Scanner;
+import java.util.ArrayList;
+
+public class Main {
+    public static void main(String[] args) {
+
+        Scanner sc = new Scanner(System.in);
+        ArrayList<String> nomes = new ArrayList<>();
+        nomes.add("Luan");
+        nomes.add("Carlos");
+        nomes.add("Lucas");
+        nomes.add("Andre");
+        nomes.add("Claudio");
+        nomes.add("Laura");
+        nomes.add("Leticia");
+        nomes.add("Juan");
+        nomes.add("Eren");
+        nomes.add("Alex");
+
+        int contador = 1;
+        for (String nome : nomes){
+
+            System.out.printf("O %d nome é: %s\n",contador,nome);contador++;
+
+        }
+    }
+}

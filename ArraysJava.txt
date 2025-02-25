@@ -1,0 +1,20 @@
+//Arrays!!
+import java.util.Scanner;
+import java.util.ArrayList;
+
+public class Main {
+    public static void main(String[] args) {
+
+        Scanner sc = new Scanner(System.in);
+        ArrayList<String> nomes = new ArrayList<>();
+        while (true) {
+
+            System.out.println("Informe um nome a ser adcionado ou um '' para finzalizar ");
+            String nome = sc.nextLine();
+            if (!nome.equals("")){
+                nomes.add(nome);
+            }else break;
+        }
+        System.out.println(nomes.toString());
+    }
+}
