@@ -1,0 +1,14 @@
+//4-
+        Scanner sc = new Scanner(System.in);
+        ArrayList<String> produtos= new ArrayList<String>(5);
+        ArrayList<Double> precos= new ArrayList<Double>(5);
+        for(int i=0;i<5;i++){
+            System.out.println("Informe o produto: ");
+            produtos.add(sc.nextLine());
+            System.out.println("Informe o preço: ");
+            precos.add(sc.nextDouble());
+            sc.nextLine();        }
+        for(int i=0;i<5;i++){
+
+            System.out.printf("O produto %s custa R$%.2f.%n",produtos.get(i),precos.get(i));
+        }
