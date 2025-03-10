@@ -1,0 +1,89 @@
+//1- Crie 1 alunos (nome, nota b1-b4;calcular a media).
+
+
+public class Aluno {
+
+    String nome;
+    double notab1,notab2,notab3,notab4;
+
+
+    public double  media() {
+        return ( notab1+notab2+notab3+notab4) / 4;
+
+    }
+}
+
+
+
+----------------------------main cod------------------------------
+
+import java.util.Scanner;
+public class Main {
+    public static void main(String[] args) {
+    Scanner sc = new Scanner(System.in);
+
+        Aluno aluno1 = new Aluno();
+        System.out.println("Informe o nome do aluno:");
+        aluno1.nome = sc.next();
+
+        System.out.println("nota do b1");
+        aluno1.notab1 = sc.nextDouble();
+
+        System.out.println("nota do b2");
+        aluno1.notab2 = sc.nextDouble();
+
+        System.out.println("nota do b3");
+        aluno1.notab3 = sc.nextDouble();
+
+        System.out.println("nota do b4");
+        aluno1.notab4 = sc.nextDouble();
+
+
+//        Aluno aluno2 = new Aluno();
+//        System.out.println("Informe o nome do aluno:");
+//        aluno2.nome = sc.next();
+//
+//        System.out.println("nota do b1");
+//        aluno2.notab1 = sc.nextDouble();
+//
+//        System.out.println("nota do b2");
+//        aluno2.notab2 = sc.nextDouble();
+//
+//        System.out.println("nota do b3");
+//        aluno2.notab3 = sc.nextDouble();
+//
+//        System.out.println("nota do b4");
+//        aluno2.notab4 = sc.nextDouble();
+
+
+//        Aluno aluno3 = new Aluno();
+//        System.out.println("Informe o nome do aluno:");
+//        aluno3.nome = sc.next();
+//
+//        System.out.println("nota do b1");
+//        aluno3.notab1 = sc.nextDouble();
+//
+//        System.out.println("nota do b2");
+//        aluno3.notab2 = sc.nextDouble();
+//
+//        System.out.println("nota do b3");
+//        aluno3.notab3 = sc.nextDouble();
+//
+//        System.out.println("nota do b4");
+//        aluno3.notab4 = sc.nextDouble();
+
+
+        System.out.println("Aluno: "+ aluno1.nome);
+        System.out.println("B1: "+ aluno1.notab1);
+        System.out.println("B2: "+ aluno1.notab2);
+        System.out.println("B3: "+aluno1.notab3);
+        System.out.println("B4: "+aluno1.notab4);
+        System.out.println("Media de: "+aluno1.media());
+
+//        System.out.printf("Aluno: %s %n b1: %.1f %n b2: %.1f %n b3: %.1f %n b4: %.1f %n media: %.1f",aluno1.nome,aluno1.notab1,aluno1.notab2, aluno1.notab3,aluno1.notab4,aluno1.media());
+//        System.out.printf("%n aluno %s %n b1: %.1f %n b2: %.1f %n b3: %.1f %n b4: %.1f %n media: %.1f",aluno2.nome,aluno2.notab1,aluno2.notab2, aluno2.notab3,aluno2.notab4,aluno2.media());
+//        System.out.printf("%n aluno %s %n b1: %.1f %n b2: %.1f %n b3: %.1f %n b4: %.1f %n media: %.1f",aluno3.nome,aluno3.notab1,aluno3.notab2, aluno3.notab3,aluno3.notab4,aluno3.media());
+
+
+    }
+}
