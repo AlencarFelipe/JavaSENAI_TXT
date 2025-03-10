@@ -1,0 +1,41 @@
+// POO  0- Crie uma classe chamada parentes. Crie 4 objetos dessa classe referentes aos parentes de sua família.
+
+public class Parente {
+
+    String nome;
+    int idade;
+    String parentesco;
+}
+  ---------------main cod------------
+
+
+public class Main {
+    public static void main(String[] args) {
+//Marco, 35 anos , primo
+
+Parente parenteA = new Parente();
+parenteA.nome = "Marco";
+parenteA.idade = 35;
+parenteA.parentesco = "Primo";
+
+ Parente parenteB = new Parente();
+ parenteB.nome = "José";
+ parenteB.idade = 51;
+ parenteB.parentesco = "Pai";
+
+ Parente parenteC = new Parente();
+ parenteC.nome = "Leticia";
+ parenteC.idade = 8;
+ parenteC.parentesco = "Irmã";
+
+ Parente parenteD = new Parente();
+ parenteD.nome = "Maria";
+ parenteD.idade = 46;
+ parenteD.parentesco = "Mãe";
+
+        System.out.printf("O %s tem %d anos e é meu %s %n",parenteA.nome,parenteA.idade,parenteA.parentesco);
+        System.out.printf("O %s tem %d anos e é meu %s %n",parenteB.nome,parenteB.idade,parenteB.parentesco);
+        System.out.printf("A %s tem %d anos e é minha %s %n",parenteC.nome,parenteC.idade,parenteC.parentesco);
+        System.out.printf("A %s tem %d anos e é minha %s %n",parenteD.nome,parenteD.idade,parenteD.parentesco);
+    }
+}
